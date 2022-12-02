@@ -10,19 +10,20 @@ body{
     background-position: center;
     background-size: cover;
     font-family: 'Poppins', sans-serif;
-
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 .container{
     display: flex;
-    width: 80%;
+    width: 70%;
+    min-width: 400px;
     max-width: 800px;
     height: 600px;
     margin:  auto;
     flex-direction: column;
     margin-top: 30px;
     background-color: hsla(25, 100%, 50%, 0.545);
-    border-radius: 80px;
-    
+    border-radius: 80px;    
 }
 .main__title{
     text-align: center;
@@ -38,8 +39,8 @@ body{
     color: rgb(19, 255, 23);
 }
 .main__img{
-    width: 400px;
-    width: 400px;
+    width: 300px;
+    width: 300px;
     max-width: 400px;
     max-height: 400px;
     margin: 0 auto;
