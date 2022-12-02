@@ -6,12 +6,12 @@ function ruleta() {
     let bullet = 6
     if(num == bullet){
         img.src = "skull.png"
-        img.style.width = "285px"
+        img.style.width = "214px"
         txt.style.color = "red"
         txt.innerText = "Te moriste!"
     }else{
         img.src = "face.png"
-        img.style.width = "400px"
+        img.style.width = "300px"
         txt.style.color = "rgb(19, 255, 23)"
         txt.innerText = "Sigues vivo!"
     }
