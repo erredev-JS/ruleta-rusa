@@ -12,6 +12,7 @@ body{
     font-family: 'Poppins', sans-serif;
     background-repeat: no-repeat;
     height: 100vh;
+
 }
 .container{
     display: flex;
@@ -23,7 +24,8 @@ body{
     flex-direction: column;
     margin-top: 30px;
     background-color: hsla(25, 100%, 50%, 0.545);
-    border-radius: 80px;    
+    border-radius: 80px;
+    
 }
 .main__title{
     text-align: center;
@@ -62,6 +64,7 @@ body{
 }
 .main__cta:active{
     box-shadow: 1px 0px  #bf8105;
+    animation: 1s ease ;
 }
 .main__footer{
     width: 90%;
@@ -73,6 +76,69 @@ body{
     font-weight: bold;
     color: wheat;
 }
+
+@keyframes shake {
+    0%{
+        rotate: 0deg;
+    }
+    25%{
+        rotate: 2deg;
+    }
+    50%{
+        rotate: -2deg;
+    }
+
+    100%{
+        rotate: 0deg;
+    }
+}
+@keyframes shake2{
+    0%{
+        rotate: 0deg;
+    }
+    25%{
+        rotate: 2deg;
+    }
+    50%{
+        rotate: -2deg;
+    }
+
+    100%{
+        rotate: 0deg;
+    }
+}
+
+@keyframes shake3{
+    0%{
+        rotate: 0deg;
+    }
+    25%{
+        rotate: 2deg;
+    }
+    50%{
+        rotate: -2deg;
+    }
+
+    100%{
+        rotate: 0deg;
+    }
+}
+@keyframes shake4{
+    0%{
+        rotate: 0deg;
+    }
+    25%{
+        rotate: 2deg;
+    }
+    50%{
+        rotate: -2deg;
+    }
+
+    100%{
+        rotate: 0deg;
+    }
+}
+
 
 @media(min-height: 800px){
     .container{
