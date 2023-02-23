@@ -138,7 +138,7 @@ body{
         rotate: 0deg;
     }
 }
-
+::-webkit-scrollbar { display: none; }
 
 @media(min-height: 800px){
     .container{
